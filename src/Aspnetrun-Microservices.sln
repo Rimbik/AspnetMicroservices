@@ -9,6 +9,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{C7
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.API", "services\Catalog\Catalog.API\Catalog.API.csproj", "{791C6466-C261-422A-8CDD-03FC2EF21DD4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LAB", "LAB", "{C7D7BC8F-796F-4449-AF7A-3B6DADAA458B}"
+	ProjectSection(SolutionItems) = preProject
+		progress.txt = progress.txt
+		Readme.txt = Readme.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
