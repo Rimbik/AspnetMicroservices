@@ -7,3 +7,13 @@ docker logs -f aspnetrun-redis
 
 run redis image:
 docker exec -it aspnetrun-redis /bin/bash
+
+
+Try Redis command >>
+redis-cli
+ping - PONG
+
+set key value
+get key
+set name mehmet
+get name

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Builder;
+﻿using Basket.API.Repositories;
+using Microsoft.AspNetCore.Builder;
 //using Basket.API.GrpcServices;
 //using Basket.API.Repositories;
 //using Discount.Grpc.Protos;
@@ -31,9 +32,9 @@ namespace Basket.API
                 options.Configuration = Configuration.GetValue<string>("CacheSettings:ConnectionString");
             });
 
-            // General Configuration
-           // services.AddScoped<IBasketRepository, BasketRepository>();
-          //services.AddAutoMapper(typeof(Startup));
+            //General Configuration
+            services.AddScoped<IBasketRepository, BasketRepository>();
+            //services.AddAutoMapper(typeof(Startup));
 
             //// Grpc Configuration
             //services.AddGrpcClient<DiscountProtoService.DiscountProtoServiceClient>
